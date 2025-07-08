@@ -11,3 +11,4 @@ I am Shivraj Shere, a Mechanical Design Engineer. I'm passionate about designing
 😎 Looking to collaborate on projects related to mechanical systems, product design, or industrial automation.
 💬 Ask me anything – if I don’t know it, I’ll be excited to learn something new!
 ⚡ Fun fact: I talk less and work more. I’m a chill person with great humor and can give solid life advice too.
+
