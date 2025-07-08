@@ -2,34 +2,36 @@
 layout: default
 title: Home
 ---
-Hi, I’m Sajanraj T D — a software engineer, data enthusiast, and curious mind passionate about building intelligent systems that bridge the gap between people and technology.
 
-This space is where I share my journey through machine learning, computer vision, and software development. From hands-on tutorials and project breakdowns to research insights and personal reflections, this blog is a digital notebook of ideas, experiments, and continuous learning.
+👋 About Me
+Hi there! I'm Shivraj Shere, a Mechanical Engineer with a Master’s in Robotics and Autonomous Systems from the University of Sussex. I specialize in mechanical design, robotic systems, and electro-mechanical product development. My work bridges mechanical innovation with automation, smart sensors, and medical robotics — turning complex challenges into elegant solutions.
 
-Whether you're a fellow developer, a student exploring tech, or just someone curious about AI and innovation — you’re in the right place. Dive in, explore, and feel free to connect. Let’s learn and grow together.
+🔧 Currently, I work as a Technical Engineer at IVY TECH Ltd. (UK), where I lead R&D and project management for cutting-edge applications like IoT-based 3D concrete printing and agricultural predictive maintenance systems. My experience spans product lifecycle management, CAD/FEA simulation, and hands-on prototyping.
 
-📘 Sajanraj T D – Tech Blog
-Welcome to my blog — a collection of personal projects, tutorials, and research highlights in the fields of software engineering, data science, and artificial intelligence.
+💡 I'm particularly passionate about:
 
-🧠 Featured Topics
-Smart Passenger Information System – AI-powered solutions for enhancing public transport systems.
+Designing robust mechanical systems
 
-Data Analytics in Metro Systems – Real-time analytics platforms developed for Kochi Metro.
+Developing sensor-integrated platforms for real-world impact
 
-Sign Language Recognition – Using CNNs and YOLO for Indian Sign Language numeral recognition.
+Exploring innovations in medical and industrial robotics
 
-AI & Deep Learning – Projects with Keras LSTM for text generation and intelligent data systems.
+📚 My background includes:
 
-Web & GUI Development – Posts on Django, Qt Designer, and Facebook content scraping.
+Publishing research on tactile sensing and robotics automation
 
-📍 Projects in Focus
-Intelligent transport analytics (Railway and Metro)
+Designing a surveillance robot with image processing for remote control
 
-Real-time sign language recognition
+Leading cross-functional teams to deliver projects under budget and ahead of schedule
 
-COVID-19 data tracking and insights
+⚙️ Tech Stack & Tools:
 
-Hands-on guides for Python, Django, and Kivy
+CAD/CAE: SolidWorks, Siemens NX, AutoCAD, Inventor
 
-🌐 Explore More
-Visit the full blog at sajanrajtd.wordpress.com
+Simulation: ANSYS, Autodesk CFD, SolidWorks Simulation
+
+Robotics: Mobile & Medical Robotics, Sensor Integration (IoT/Fiber Optics)
+
+Manufacturing: Rapid prototyping, DfM, Injection Moulding, Additive Manufacturing
+
+📌 Fun fact: I’m a member of the Institution of Engineering and Technology (IET) and working toward my Chartered Engineer (CEng) certification.
