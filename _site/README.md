@@ -1,40 +1,28 @@
+# Shivraj Shere | Professional Portfolio
 
+> Generative AI & Intelligent Systems Engineer | Robotics Researcher
 
-# ShivrajShere
+This repository contains the source code for my professional portfolio, built on a robust, full-width **Vanilla Jekyll** architecture.
 
-A boutique Jekyll theme for hackers, nerds, and academics.  
+## Overview
+The portfolio is designed to showcase my work at the intersection of mechanical precision, generative AI, and intelligent autonomy. It highlights my core competencies in:
+- **Generative AI & Machine Learning:** PyTorch, LLMs, NLP pipelines, 3D GANs
+- **Mechanical Design & CAD:** SOLIDWORKS, FEA, CATIA V5
+- **IoT & Robotics:** ROS, Motion Planning, Computer Vision
 
+## Architecture
+This project originally utilized the Hydejack theme but has since been completely overhauled into a **vanilla Jekyll site** for maximum performance and layout flexibility:
+- **`_layouts/default.html`**: The unified, single-source HTML skeleton.
+- **`assets/css/custom.css`**: A ground-up responsive, full-viewport CSS grid layout utilizing modern CSS variables for a "Glow/Glassmorphic" dark aesthetic.
+- **`_data/`**: Content decoupling via YAML data files (`projects.yml`, `publications.yml`, `blog.yml`), dynamically iterated using Liquid templating.
 
+## Setup & Deployment
+Run this locally with standard Ruby/Jekyll:
+```bash
+bundle install
+bundle exec jekyll serve
+```
+Site is fully configured for automated **GitHub Pages** deployment from the `main` branch.
 
-
-[![Screenshot](/assets/img/home.png)][welcome]
-
-<p align="center">ShivrajShere's cover page on a variety of screen sizes.
-
-
-
-**ShivrajShere** is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress. 
-
-It includes a blog that is suitable for both prose and technical documentation, a portfolio to showcase your projects, and a resume template that looks amazing on the web and in print.
-
-> Your complete presence on the web — A [blog], [portfolio], and [resume].
-
-
-
-## A Personal Site That Won't Disappear
-
-**ShivrajShere** is 100% built on Open Source software, and is Open Source itself, save for parts of the PRO version. The PRO version is a one-time payment that gives you the right to use it forever.
-
-ShivrajShere is all static sites. _HTML_. All you need is a web server — any web server — to have a professional web presence that lasts a lifetime.
-
-
-## A Free Blogging Theme
-**ShivrajShere** started out as a free blogging theme for Jekyll — and continues to be so.
-
-<!--posts-->
-
-
-## An Impressive Portfolio
-A portfolio that's guaranteed to be impressive — no matter what you put into it.
-
-
+---
+*Built with engineering precision. © 2026 Shivraj Shere.*
