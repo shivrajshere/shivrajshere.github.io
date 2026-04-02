@@ -48,10 +48,11 @@ title: Shivraj Shere | Robotics Engineer & Product Designer
       </div>
     </div>
     </div>
-    </div>
   </div>
 </div>
+
 <!-- ════════════════════════════ PROJECTS ════════════════════════════════ -->
+
 <section id="projects" class="scan-section">
   <div class="container">
     <div class="section-header">
