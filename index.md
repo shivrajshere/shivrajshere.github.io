@@ -47,11 +47,10 @@ title: Shivraj Shere | Robotics Engineer & Product Designer
         <span class="stat-label">Major Projects Delivered</span>
       </div>
     </div>
-      </div>
+    </div>
     </div>
   </div>
 </div>
-
 <!-- ════════════════════════════ PROJECTS ════════════════════════════════ -->
 <section id="projects" class="scan-section">
   <div class="container">
