@@ -11,17 +11,21 @@ title: Shivraj Shere | Robotics Engineer & Product Designer
   <div class="hero-orb hero-orb-1"></div>
   <div class="hero-orb hero-orb-2"></div>
 
-  <div class="container hero-content">
+  <div class="container hero-content" style="display: flex; align-items: center; gap: 4rem; justify-content: space-between; position: relative; z-index: 5;">
+    <div class="hero-robot" style="flex: 1; text-align: center; max-width: 45%;">
+      <img src="{{ '/assets/img/hero-robot.png' | relative_url }}" alt="Generative AI Robot" class="reveal-left" style="width: 100%; max-width: 500px; height: auto; filter: drop-shadow(0 0 30px rgba(79, 177, 186, 0.4)); animation: float 6s ease-in-out infinite;">
+    </div>
+    <div class="hero-text" style="flex: 1.2;">
     <span class="section-tag reveal-left">// Technical Engineer &amp; Robotics Researcher</span>
     <h1 class="reveal-left">
       <span class="text-gradient">Shivraj<br>Shere</span>
     </h1>
-    <p class="hero-subtitle typewriter" id="typewriter-text">Robotics Engineer</p>
+    <p class="hero-subtitle typewriter" id="typewriter-text">Generative AI & Intelligent Systems Engineer</p>
 
     <p class="hero-description reveal">
-      Architecting the intersection of mechanical precision and intelligent autonomy at IVY TECH Ltd., UK.
-      Master's in Robotics &amp; Autonomous Systems (University of Sussex) — specialized in
-      medical robotics, IoT sensor platforms, and electro-mechanical system design.
+      Architecting the intersection of generative AI, mechanical precision, and intelligent autonomy.
+      Specialized in medical robotics, NLP generative pipelines, 3D multi-agent systems, and 
+      developing commercial-grade automated platforms using PyTorch, LLMs, and cloud environments.
     </p>
 
     <div class="hero-cta reveal">
@@ -41,6 +45,8 @@ title: Shivraj Shere | Robotics Engineer & Product Designer
       <div class="stat-item">
         <span class="stat-number count-up" data-target="6">0</span>
         <span class="stat-label">Major Projects Delivered</span>
+      </div>
+    </div>
       </div>
     </div>
   </div>
@@ -148,6 +154,17 @@ title: Shivraj Shere | Robotics Engineer & Product Designer
     </div>
 
     <div class="skills-container">
+      <div class="glass-card reveal">
+        <div class="skill-group">
+          <h4>Generative AI & Machine Learning</h4>
+          <span class="skill-tag">PyTorch / TensorFlow</span>
+          <span class="skill-tag">LLMs & NLP</span>
+          <span class="skill-tag">ETL & Data Pipelines</span>
+          <span class="skill-tag">LangChain</span>
+          <span class="skill-tag">3D GANs / NeRF</span>
+        </div>
+      </div>
+
       <div class="glass-card reveal">
         <div class="skill-group">
           <h4>Mechanical Design &amp; CAD</h4>

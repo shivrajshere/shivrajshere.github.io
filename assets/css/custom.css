@@ -872,7 +872,9 @@ a.no-push-state::before { display: none !important; content: none !important; }
 
 @media (max-width: 768px) {
     .nav-links { display: none; }
-    .hero-stats { flex-wrap: wrap; gap: 1.5rem; }
+    .hero-content { flex-direction: column !important; text-align: center; gap: 2rem !important; }
+    .hero-robot, .hero-text { max-width: 100% !important; flex: none !important; }
+    .hero-stats { flex-wrap: wrap; gap: 1.5rem; justify-content: center; }
     .project-grid { grid-template-columns: 1fr; }
     .item-card { flex-direction: column; align-items: flex-start; }
     .container { padding: 0 1.5rem; }
