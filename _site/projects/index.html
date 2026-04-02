@@ -1,474 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-
-
-
-
-
-
 <head>
-  
-
-
-
-
-
-
-  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projects — Shivraj Shere | SS://portfolio</title>
     
-
-<title>Projects | TrainFX</title>
-<meta name="description" content="
-">
-<link rel="canonical" href="http://localhost:4000/projects/">
-
-  
-
-  
-
-
-
-  <meta name="color-scheme" content="dark light">
-
-
-
-  <meta name="theme-color" content="rgb(25,55,71)">
-
-
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-
-<meta name="mobile-web-app-capable" content="yes">
-
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="TrainFX">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
-
-<meta name="application-name" content="TrainFX">
-
-<meta name="generator" content="Hydejack v9.2.1" />
-
-
-<link rel="alternate" href="http://localhost:4000/projects/" hreflang="en">
-
-
-
-<link rel="shortcut icon"    href="/assets/icons/favicon.ico">
-<link rel="apple-touch-icon" href="/assets/icons/icon-192x192.png">
-
-<link rel="manifest" href="/assets/site.webmanifest">
-
-
-
-
-
-<link rel="preload" href="/assets/img/swipe.svg" as="image" id="_hrefSwipeSVG">
-
-
-
-
-
-
-<script>((r,a)=>{function d(e,t,n,o){e.addEventListener?e.addEventListener(t,n,o):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n}r.loadJS=function(e,t){var n=a.createElement("script"),e=(n.src=e,t&&d(n,"load",t,{once:!0}),a.scripts[0]);return e.parentNode.insertBefore(n,e),n},r._loaded=!1,r.loadJSDeferred=function(e,t){var n=a.createElement("script");function o(){r._loaded=!0,t&&d(n,"load",t,{once:!0});var e=a.scripts[0];e.parentNode.insertBefore(n,e)}return n.src=e,r._loaded?o():d(r,"load",o,{once:!0}),n},r.setRel=r.setRelStylesheet=function(e){d(a.getElementById(e),"load",function(){this.rel="stylesheet"},{once:!0})}})(window,document);
-!function(a){"use strict";var b=function(b,c,d){function e(a){return h.body?a():void setTimeout(function(){e(a)})}function f(){i.addEventListener&&i.removeEventListener("load",f),i.media=d||"all"}var g,h=a.document,i=h.createElement("link");if(c)g=c;else{var j=(h.body||h.getElementsByTagName("head")[0]).childNodes;g=j[j.length-1]}var k=h.styleSheets;i.rel="stylesheet",i.href=b,i.media="only x",e(function(){g.parentNode.insertBefore(i,c?g:g.nextSibling)});var l=function(a){for(var b=i.href,c=k.length;c--;)if(k[c].href===b)return a();setTimeout(function(){l(a)})};return i.addEventListener&&i.addEventListener("load",f),i.onloadcssdefined=l,l(f),i};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
-!function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(b){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d,d.getAttribute("media")),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
-!function(w) {
-  w._baseURL = '/';
-  w._publicPath = '/assets/js/';
-  w._noPushState = false;
-  w._noDrawer = false;
-  w._noNavbar = false;
-  w._noToc = false;
-  w._noSearch = false;
-  w._search = {
-    DATA_URL: '/assets/sitedata.json?no-cache',
-    STORAGE_KEY: 'mini-search/',
-    INDEX_KEY: 'index--2025-04-23T10:00:54+01:00',
-  };
-  w._clapButton = true;
-}(window);</script>
-
-
-
-<!--[if gt IE 8]><!---->
-
-  
-
-
-
-
-<link rel="stylesheet" href="/assets/css/hydejack-9.2.1.css" id="_stylePreload">
-<link rel="stylesheet" href="/assets/icomoon/style.css" id="_iconsPreload">
-
-
-
-
-  <style id="_pageStyle">
-
-html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.5);--accent-color-highlight: rgba(79, 177, 186, 0.1);--accent-color-darkened: #409ba3;--theme-color: rgb(25,55,71);--dark-mode-body-bg: hsl(200.8695652174, 5.9895833333%, 17.5%);--dark-mode-border-color: hsl(200.8695652174, 5.9895833333%, 22.5%)}
-</style>
-
-
-<!--<![endif]-->
-
-
-
-
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/custom.css">
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Projects — Shivraj Shere | SS://portfolio</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Projects — Shivraj Shere" />
+<meta name="author" content="Shivraj" />
+<meta property="og:locale" content="en" />
+<link rel="canonical" href="http://0.0.0.0:4000/projects/" />
+<meta property="og:url" content="http://0.0.0.0:4000/projects/" />
+<meta property="og:site_name" content="SS://portfolio" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Projects — Shivraj Shere" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Shivraj"},"headline":"Projects — Shivraj Shere","url":"http://0.0.0.0:4000/projects/"}</script>
+<!-- End Jekyll SEO tag -->
 
 </head>
-
-<body class="no-break-layout">
-  
-<script>
-  window._sunrise = 6;
-  window._sunset =  18;
-  ((e,s)=>{var d="light-mode",a="dark-mode",o=(new Date).getHours();"matchMedia"in e&&e.matchMedia("(prefers-color-scheme)")||(e=(o=o<=e._sunrise||o>=e._sunset?a:d)==a?d:a,s.body.classList.add(o),s.body.classList.remove(e))})(window,document);
-
-</script>
-
-
-
-<hy-push-state
-  id="_pushState"
-  replace-selector="#_main"
-  link-selector="a[href]:not([href^='/assets/']):not(.external):not(.no-push-state)"
-  script-selector="script"
-  duration="500"
-  hashchange
->
-  
-  
-  <div id="_navbar" class="navbar fixed-top">
-  <div class="content">
-    <span class="sr-only">Jump to:</span>
-    <div class="nav-btn-bar">
-      <a id="_menu" class="nav-btn no-hover" href="#_drawer--opened">
-        <span class="sr-only">Navigation</span>
-        <span class="icon-menu"></span>
-      </a>
-      <div class="nav-span"></div>
-    </div>
-  </div>
-</div>
-<hr class="sr-only" hidden />
-
-  <main
-  id="_main"
-  class="content layout-default"
-  role="main"
->
-  <nav id="breadcrumbs" class="screen-only"><ul>
-  
-  
-    <li><a href="/">home</a></li>
-    
-      <li>
-        
-          <span>/</span>
-          <span>projects</span>
-        
-      </li>
-    
-  
-</ul></nav>
-  
-
-<article class="page" role="article">
-  <header>
-    <h1 class="page-title">Projects</h1>
-    
-
-
-
-  <div class="hr pb0"></div>
-
-
-  </header>
-
-  <div class="grid">
-    
-      <div class="project-card">
-        <a href="/project/mynewpost/" target="_blank">
-          <img src="/assets/img/sidebar-bg.jpg" alt="My Awesome Project" class="project-thumb" />
-          <h3>My Awesome Project</h3>
-          <p>A short description of your project (appears in the project grid).
-</p>
-        </a>
-      </div>
-    
-      <div class="project-card">
-        <a href="/project/mynewpost1/" target="_blank">
-          <img src="/assets/img/sidebar-bg.jpg" alt="My Awesome Project" class="project-thumb" />
-          <h3>My Awesome Project</h3>
-          <p>A short description of your project (appears in the project grid).
-</p>
-        </a>
-      </div>
-    
-  </div>
-
-<style>
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    margin-top: 2rem;
-  }
-  .project-card {
-    background: #2a2a2a;
-    padding: 1rem;
-    border-radius: 0.75rem;
-    transition: transform 0.3s ease;
-  }
-  .project-card:hover {
-    transform: translateY(-5px);
-  }
-  .project-thumb {
-    width: 100%;
-    border-radius: 0.5rem;
-    margin-bottom: 1rem;
-  }
-  h3 {
-    margin: 0.5rem 0 0.25rem;
-  }
-  p {
-    margin: 0;
-    color: #aaa;
-  }
-  </style>
-
-
-
-  <hr class="dingbat related"/>
-
-  
-    <h2 class="hr-bottom">Posts</h2>
-    <ul class="related-posts">
-      
-        
-
-
-<li class="h4">
-  <a href="/tutorials/my-awesome-post/" class="flip-title"><span>My Awesome Post</span></a>
-  <time class="faded fine" datetime="2025-04-17T13:00:00+01:00">17 Apr 2025</time>
-</li>
-
-      
+<body>
+    <!-- Navigation -->
+    <!-- Custom Navigation Bar — shared across all pages -->
+<div class="futuristic-bg"></div>
+<nav class="navbar">
+  <div class="container">
+    <a href="/" class="nav-logo no-push-state no-mark">SS://portfolio</a>
+    <ul class="nav-links">
+      <li><a href="/" class="no-push-state no-mark">Profile</a></li>
+      <li><a href="/projects/" class="no-push-state no-mark">Projects</a></li>
+      <li><a href="/publications/" class="no-push-state no-mark">Publications</a></li>
+      <li><a href="/blog/" class="no-push-state no-mark">Blog</a></li>
+      <li><a href="https://github.com/shivrajshere" target="_blank" class="no-push-state no-mark">GitHub</a></li>
     </ul>
-  
-
-  
-  
-    <h2 class="hr-bottom">Pages</h2>
-    <ul class="related-posts">
-      
-        
-          <li class="h4">
-            <a href="/about/" class="flip-title">
-              <span>About Me</span>
-            </a>
-          </li>
-        
-      
-    </ul>
-  
-</article>
-
-  
-<footer class="content" role="contentinfo">
-  <hr/>
-  
-    <p><small class="copyright">© 2024. All rights reserved.
-</small></p>
-  
-  
-    <p><small>Powered by <a class="external" href="https://sajanrajtd.wordpress.com/">Raj Creations</a> v<span id="_version">0.0.1</span></small></p>
-  <hr class="sr-only"/>
-</footer>
-
-
-</main>
-
-  <hy-drawer
-  id="_drawer"
-  class=""
-  side="left"
-  threshold="10"
-  noscroll
-  
->
-  <header id="_sidebar" class="sidebar" role="banner">
-    
-
-
-
-
-<div class="sidebar-bg sidebar-overlay" style="background-color:rgb(25,55,71);background-image:url(/assets/img/sidebar-lg.jpg)"></div>
-
-    <div class="sidebar-sticky">
-  <div class="sidebar-about">
-    
-      <a class="no-hover" href="/" tabindex="-1">
-        <img src="/assets/img/logo.png" class="avatar" alt="TrainFX" width="120" height="120" loading="lazy" />
-      </a>
-    
-    <a class="sidebar-title" href="/"><h2 class="h1">TrainFX</h2></a>
-    
-    
+    <!-- theme toggle injected by JS -->
   </div>
-
-  <nav class="sidebar-nav heading" role="navigation">
-    <span class="sr-only">Navigation:</span>
-<ul>
-  
-    
-      
-      <li>
-        <a
-          id="_drawer--opened"
-          href="/about/"
-          class="sidebar-nav-item "
-          
-        >
-          About
-        </a>
-      </li>
-    
-      
-      <li>
-        <a
-          
-          href="/showcase/"
-          class="sidebar-nav-item "
-          
-        >
-          Showcase
-        </a>
-      </li>
-    
-      
-      <li>
-        <a
-          
-          href="/posts/"
-          class="sidebar-nav-item "
-          
-        >
-          Posts
-        </a>
-      </li>
-    
-      
-      <li>
-        <a
-          
-          href="/projects/"
-          class="sidebar-nav-item "
-          
-        >
-          Projects
-        </a>
-      </li>
-    
-  
-</ul>
-
-  </nav>
-
-  
-  <div class="sidebar-social">
-    <span class="sr-only">Social:</span>
-<ul>
-  
-    
-    
-
-    
-    
-
-    
-    
-  
-</ul>
-
-  </div>
-</div>
-  </header>
-</hy-drawer>
-<hr class="sr-only" hidden />
-
-</hy-push-state>
+</nav>
 
 
-  <!--[if gt IE 10]><!---->
-  <script nomodule>(()=>{var t,n=document.createElement("script");!("noModule"in n)&&"onbeforeload"in n&&(t=!1,document.addEventListener("beforeload",function(e){if(e.target===n)t=!0;else if(!e.target.hasAttribute("nomodule")||!t)return;e.preventDefault()},!0),n.type="module",n.src=".",document.head.appendChild(n),n.remove())})();
-</script>
-  <script src="/assets/js/hydejack-9.2.1.js" type="module"></script>
-  <script src="/assets/js/LEGACY-hydejack-9.2.1.js" nomodule defer></script>
-  
-
-  
-
-<!--<![endif]-->
-  
-
-
-
-<div hidden>
-  
-  <h2 class="sr-only">Templates:</h2>
-
-  <template id="_animation-template">
-  <div class="animation-main fixed-top">
-    <nav id="breadcrumbs" class="screen-only"><ul>
-  
-  
-</ul></nav>
-    <div class="content">
-      <div class="page"></div>
+    <!-- Main Content -->
+    <div class="pg-wrapper">
+  <aside class="pg-sidebar">
+    <div class="sidebar-card">
+      <span class="section-tag">// Navigation</span>
+      <nav class="sidebar-nav">
+        <a href="/" class="sidebar-link no-push-state no-mark">← Home</a>
+        <a href="/projects/" class="sidebar-link no-push-state no-mark active">Projects</a>
+        <a href="/publications/" class="sidebar-link no-push-state no-mark">Publications</a>
+        <a href="/blog/" class="sidebar-link no-push-state no-mark">Blog</a>
+        <a href="https://github.com/shivrajshere" target="_blank" class="sidebar-link no-push-state no-mark">GitHub ↗</a>
+      </nav>
     </div>
-  </div>
-</template>
+    <div class="sidebar-card" style="margin-top: 1.5rem;">
+      <span class="section-tag">// Skills Used</span>
+      <div style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.4rem;">
+        <span class="card-tag">CATIA V5</span>
+        <span class="card-tag">ANSYS FEA</span>
+        <span class="card-tag">SolidWorks</span>
+        <span class="card-tag">OpenCV</span>
+        <span class="card-tag">ISO 13485</span>
+        <span class="card-tag">Wireless</span>
+      </div>
+    </div>
+  </aside>
 
-  <template id="_loading-template">
-  <div class="loading nav-btn fr">
-    <span class="sr-only">Loading…</span>
-    <span class="icon-cog"></span>
-  </div>
-</template>
+  <main class="pg-content">
+    <div class="pg-header reveal">
+      <span class="section-tag">// Engineering Portfolio · Mechanical Designs · Robotics</span>
+      <h1>Projects &amp;<br />Mechanical Designs</h1>
+      <p class="pg-lead">"Good design is like a refrigerator — when it works, no one notices, but when it doesn't, it sure stinks." — Irene Au</p>
+    </div>
 
-  <template id="_error-template">
-  <div class="page">
-    <h1 class="page-title">Error</h1>
     
+    <div class="project-detail-card glass-card reveal">
+      <div class="project-detail-top">
+        <div class="project-detail-info">
+          <div class="project-tags">
+            
+            <span class="card-tag">Medical Robotics</span>
+            
+            <span class="card-tag">ISO 13485</span>
+            
+            <span class="card-tag">MIS</span>
+            
+          </div>
+          <h2>Cancer Detection Tool for Minimal Invasive Surgery</h2>
+          <p class="project-desc">A bespoke cancer detection tool designed for use in Minimal Invasive Surgery (MIS). The tool measures tissue stiffness via tactile feedback to help surgeons identify potentially cancerous tissue in real time — reducing the need for traditional biopsy. Designed to ISO 13485 medical device standards with full hazard and risk analysis.</p>
+          
+          <ul class="project-highlights">
+            
+            <li>Tissue stiffness measurement via piezoresistive sensor</li>
+            
+            <li>Designed to ISO 13485 medical device standards</li>
+            
+            <li>Hazard and Risk Analysis (FMEA)</li>
+            
+            <li>Compatible with standard laparoscopic ports (5–12mm)</li>
+            
+          </ul>
+          
+        </div>
+        <div class="project-detail-img">
+          <img src="/assets/img/cancer_detection_project_1775165852653.png" alt="Cancer Detection Tool Design" />
+        </div>
+      </div>
+    </div>
     
-    <p class="lead">
-      Sorry, an error occurred while loading: <a class="this-link" href=""></a>.
-    </p>
-  </div>
-</template>
-
-  <template id="_permalink-template">
-  <a href="#" class="permalink">
-    <span class="sr-only">Permalink</span>
-    <span class="content-hash"></span>
-  </a>
-</template>
-
-  
-    <template id="_dark-mode-template">
-  <button id="_dark-mode" class="nav-btn no-hover" >
-    <span class="sr-only">Dark Mode</span>
-    <span class="icon-brightness-contrast"></span>
-  </button>
-</template>
-
-  
+    <div class="project-detail-card glass-card reveal">
+      <div class="project-detail-top">
+        <div class="project-detail-info">
+          <div class="project-tags">
+            
+            <span class="card-tag">Tele-operation</span>
+            
+            <span class="card-tag">Wireless Systems</span>
+            
+            <span class="card-tag">Medical Devices</span>
+            
+          </div>
+          <h2>Tele-operated Robot for Medical Injection System</h2>
+          <p class="project-desc">A tele-operated robotic platform designed for administering medical injections remotely, targeting emergency scenarios for wounded soldiers or patients in hazardous zones. The system uses low-latency wireless communication and an intuitive operator interface for precise drug delivery without physical proximity.</p>
+          
+          <ul class="project-highlights">
+            
+            <li>Initial Design &amp; Prototype — mechanical frame and joint layout</li>
+            
+            <li>Actuator integration and control system wiring</li>
+            
+            <li>Isometric, Bottom &amp; Top view assemblies</li>
+            
+            <li>Sterile drug cartridge delivery sub-assembly</li>
+            
+          </ul>
+          
+        </div>
+        <div class="project-detail-img">
+          <img src="/assets/img/teleoperated_robot_part2_1775165898246.png" alt="Tele-operated Injection Robot" />
+        </div>
+      </div>
+    </div>
+    
+    <div class="project-detail-card glass-card reveal">
+      <div class="project-detail-top">
+        <div class="project-detail-info">
+          <div class="project-tags">
+            
+            <span class="card-tag">Mechanical Design</span>
+            
+            <span class="card-tag">FEA / ANSYS</span>
+            
+            <span class="card-tag">CATIA V5</span>
+            
+          </div>
+          <h2>High-Precision Gearbox Design</h2>
+          <p class="project-desc">High-precision gearbox engineered for robotic joint actuation — from initial conceptualization through full CAD modelling, gear ratio calculations, tolerance analysis, and Finite Element Analysis (FEA). Optimized for load distribution and minimal backlash in robotic motion control applications.</p>
+          
+          <ul class="project-highlights">
+            
+            <li>Gear ratio: 8:1 reduction for robotic joint control</li>
+            
+            <li>FEA simulation in ANSYS for stress concentration</li>
+            
+            <li>Full BOM and manufacturing drawings in CATIA V5</li>
+            
+            <li>Backlash tolerance &lt; 0.05°</li>
+            
+          </ul>
+          
+        </div>
+        <div class="project-detail-img">
+          <img src="/assets/img/gearbox_and_style_1775165960615.png" alt="Gearbox Design" />
+        </div>
+      </div>
+    </div>
+    
+    <div class="project-detail-card glass-card reveal">
+      <div class="project-detail-top">
+        <div class="project-detail-info">
+          <div class="project-tags">
+            
+            <span class="card-tag">Product Design</span>
+            
+            <span class="card-tag">Contextual Design</span>
+            
+            <span class="card-tag">Human Factors</span>
+            
+          </div>
+          <h2>Sensor Mounting System &amp; Product Design</h2>
+          <p class="project-desc">A sensor mounting system designed for environmental monitoring platforms (linked to the ORiV project at IVY TECH). Applied a structured product design process across four core pillars.</p>
+          
+          <ul class="project-highlights">
+            
+            <li>Contextualisation of Knowledge</li>
+            
+            <li>Praxis &amp; Technique</li>
+            
+            <li>Critical Thinking</li>
+            
+            <li>Research &amp; Communication</li>
+            
+          </ul>
+          
+        </div>
+        <div class="project-detail-img">
+          <img src="/assets/img/cancer_detection_project_1775165852653.png" alt="Sensor Mounting Design" />
+        </div>
+      </div>
+    </div>
+    
+  </main>
 </div>
 
 
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Shivraj Shere. Designed & Built in the UK.</p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="/assets/js/custom.js"></script>
 </body>
 </html>

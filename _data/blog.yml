@@ -1,0 +1,17 @@
+- title: "Remote Surgery: The Next Frontier"
+  tag: "Medical Robotics"
+  date: "Apr 2026"
+  excerpt: "Low-latency wireless and tele-operation advances are enabling surgeons to operate remotely. What are the remaining technical and regulatory challenges — and when will it become mainstream?"
+  url: "#"
+
+- title: "Building ORiV: Lessons from Environmental Sensing"
+  tag: "IoT"
+  date: "Mar 2026"
+  excerpt: "What I learned building ORiV, a production-grade IoT environmental monitoring sensor at IVY TECH — hardware trade-offs, wireless protocol choices, and the challenge of productising a research prototype."
+  url: "#"
+
+- title: "Tissue Stiffness as a Cancer Marker"
+  tag: "MIS / Surgery"
+  date: "Feb 2026"
+  excerpt: "How measuring tissue stiffness during minimally invasive surgery can help detect cancerous cells in real time — and how I designed a sensor tool to do exactly that, following ISO 13485 standards."
+  url: "#"

@@ -1,37 +1,273 @@
 ---
 layout: default
-title: Home
+title: Shivraj Shere | Robotics Engineer & Product Designer
 ---
 
-👋 About Me
-Hi there! I'm Shivraj Shere, a Mechanical Engineer with a Master’s in Robotics and Autonomous Systems from the University of Sussex. I specialize in mechanical design, robotic systems, and electro-mechanical product development. My work bridges mechanical innovation with automation, smart sensors, and medical robotics — turning complex challenges into elegant solutions.
+<!-- Futuristic mouse-glow background -->
+<div class="futuristic-bg"></div>
 
-🔧 Currently, I work as a Technical Engineer at IVY TECH Ltd. (UK), where I lead R&D and project management for cutting-edge applications like IoT-based 3D concrete printing and agricultural predictive maintenance systems. My experience spans product lifecycle management, CAD/FEA simulation, and hands-on prototyping.
+<!-- ═══════════════════════════════ HERO ═════════════════════════════════ -->
+<div id="profile" class="hero">
+  <div class="hero-orb hero-orb-1"></div>
+  <div class="hero-orb hero-orb-2"></div>
 
-💡 I'm particularly passionate about:
+  <div class="container hero-content">
+    <span class="section-tag reveal-left">// Technical Engineer &amp; Robotics Researcher</span>
+    <h1 class="reveal-left">
+      <span class="text-gradient">Shivraj<br>Shere</span>
+    </h1>
+    <p class="hero-subtitle typewriter" id="typewriter-text">Robotics Engineer</p>
 
-Designing robust mechanical systems
+    <p class="hero-description reveal">
+      Architecting the intersection of mechanical precision and intelligent autonomy at IVY TECH Ltd., UK.
+      Master's in Robotics &amp; Autonomous Systems (University of Sussex) — specialized in
+      medical robotics, IoT sensor platforms, and electro-mechanical system design.
+    </p>
 
-Developing sensor-integrated platforms for real-world impact
+    <div class="hero-cta reveal">
+      <a href="#projects" class="btn-primary">Explore Work</a>
+      <a href="mailto:shivrajshere4@gmail.com" class="btn-outline">Contact Me</a>
+    </div>
 
-Exploring innovations in medical and industrial robotics
+    <div class="hero-stats reveal">
+      <div class="stat-item">
+        <span class="stat-number count-up" data-target="3">0</span>
+        <span class="stat-label">Years Industry Experience</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number count-up" data-target="2">0</span>
+        <span class="stat-label">Research Papers Published</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number count-up" data-target="6">0</span>
+        <span class="stat-label">Major Projects Delivered</span>
+      </div>
+    </div>
+  </div>
+</div>
 
-📚 My background includes:
+<!-- ════════════════════════════ PROJECTS ════════════════════════════════ -->
+<section id="projects" class="scan-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="reveal">Featured Projects</h2>
+      <div class="section-line"></div>
+    </div>
+    <span class="section-tag reveal" style="margin-top: -2rem; margin-bottom: 3rem; display:block;">// Engineering design portfolio</span>
 
-Publishing research on tactile sensing and robotics automation
+    <div class="project-grid">
+      <div class="glass-card reveal">
+        <img src="/assets/img/cancer_detection_project_1775165852653.png" alt="Cancer Detection Tool">
+        <span class="card-tag">Medical Robotics</span>
+        <span class="card-tag">ISO 13485</span>
+        <h3 style="margin-top: 1rem;">Cancer Detection Sensor</h3>
+        <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 0.5rem;">
+          A minimally invasive surgery sensor that measures tissue stiffness to predict cancerous cells — designed to international medical device standards with high precision tactile feedback.
+        </p>
+      </div>
 
-Designing a surveillance robot with image processing for remote control
+      <div class="glass-card reveal">
+        <img src="/assets/img/teleoperated_robot_part2_1775165898246.png" alt="Tele-operated Injection Robot">
+        <span class="card-tag">Tele-operation</span>
+        <span class="card-tag">Wireless Systems</span>
+        <h3 style="margin-top: 1rem;">Medical Injection Robot</h3>
+        <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 0.5rem;">
+          Tele-operated platform enabling remote drug administration for wounded soldiers in emergency field situations — combining low-latency wireless control with haptic feedback.
+        </p>
+      </div>
 
-Leading cross-functional teams to deliver projects under budget and ahead of schedule
+      <div class="glass-card reveal">
+        <img src="/assets/img/gearbox_and_style_1775165960615.png" alt="Gearbox Design">
+        <span class="card-tag">FEA Simulation</span>
+        <span class="card-tag">CATIA / ANSYS</span>
+        <h3 style="margin-top: 1rem;">High-Precision Gearbox</h3>
+        <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 0.5rem;">
+          Custom gearbox design optimized for robotic motion control — full lifecycle from CAD modelling through finite element analysis and manufacturing specifications.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
-⚙️ Tech Stack & Tools:
+<!-- ════════════════════════════ EXPERIENCE ══════════════════════════════ -->
+<section id="experience">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="reveal">Professional Timeline</h2>
+      <div class="section-line"></div>
+    </div>
 
-CAD/CAE: SolidWorks, Siemens NX, AutoCAD, Inventor
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-date">Dec 2023 – Present</div>
+        <div class="glass-card">
+          <h3>Technical Engineer</h3>
+          <p style="color: var(--accent); font-size: 0.9rem; margin: 0.25rem 0 1rem;">IVY TECH Ltd., United Kingdom</p>
+          <ul style="color: var(--text-muted); padding-left: 1.2rem; line-height: 2;">
+            <li>Lead engineer on UKRI &amp; TDB funded IoT projects</li>
+            <li>Managing full project lifecycle: design → deployment → support</li>
+            <li>R&amp;D on next-generation sensor-integrated robotic platforms</li>
+          </ul>
+        </div>
+      </div>
 
-Simulation: ANSYS, Autodesk CFD, SolidWorks Simulation
+      <div class="timeline-item reveal">
+        <div class="timeline-date">June 2022 – Nov 2023</div>
+        <div class="glass-card">
+          <h3>Graduate Engineer</h3>
+          <p style="color: var(--accent); font-size: 0.9rem; margin: 0.25rem 0 1rem;">IVY TECH Ltd., United Kingdom</p>
+          <ul style="color: var(--text-muted); padding-left: 1.2rem; line-height: 2;">
+            <li>Developed ORiV — an IoT environmental monitoring sensor system</li>
+            <li>Designed surveillance robotics platform with real-time image processing</li>
+            <li>Specialized in CAD design, FEA, and mechatronic system integration</li>
+          </ul>
+        </div>
+      </div>
 
-Robotics: Mobile & Medical Robotics, Sensor Integration (IoT/Fiber Optics)
+      <div class="timeline-item reveal">
+        <div class="timeline-date">Feb 2020 – Sept 2020</div>
+        <div class="glass-card">
+          <h3>Design Intern</h3>
+          <p style="color: var(--accent); font-size: 0.9rem; margin: 0.25rem 0 1rem;">Ergomatic Automation India Pvt. Ltd.</p>
+          <ul style="color: var(--text-muted); padding-left: 1.2rem; line-height: 2;">
+            <li>Worked on industrial manipulator and robotic arm concepts</li>
+            <li>Bridged the gap between design outputs and project implementation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-Manufacturing: Rapid prototyping, DfM, Injection Moulding, Additive Manufacturing
+<!-- ════════════════════════════ SKILLS ══════════════════════════════════ -->
+<section id="skills" class="scan-section" style="background: rgba(79,177,186,0.02);">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="reveal">Technical Stack</h2>
+      <div class="section-line"></div>
+    </div>
 
-📌 Fun fact: I’m a member of the Institution of Engineering and Technology (IET) and working toward my Chartered Engineer (CEng) certification.
+    <div class="skills-container">
+      <div class="glass-card reveal">
+        <div class="skill-group">
+          <h4>Mechanical Design &amp; CAD</h4>
+          <span class="skill-tag">SOLIDWORKS</span>
+          <span class="skill-tag">CATIA V5</span>
+          <span class="skill-tag">AutoCAD</span>
+          <span class="skill-tag">ANSYS FEA</span>
+          <span class="skill-tag">GD&amp;T</span>
+        </div>
+      </div>
+
+      <div class="glass-card reveal">
+        <div class="skill-group">
+          <h4>Robotics &amp; Vision</h4>
+          <span class="skill-tag">OpenCV</span>
+          <span class="skill-tag">MATLAB / Simulink</span>
+          <span class="skill-tag">Motion Planning</span>
+          <span class="skill-tag">ROS (basics)</span>
+          <span class="skill-tag">Image Processing</span>
+        </div>
+      </div>
+
+      <div class="glass-card reveal">
+        <div class="skill-group">
+          <h4>IoT &amp; Systems</h4>
+          <span class="skill-tag">Sensor Integration</span>
+          <span class="skill-tag">PCB Design</span>
+          <span class="skill-tag">Wireless Protocols</span>
+          <span class="skill-tag">Embedded Systems</span>
+          <span class="skill-tag">Medical Devices</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════ PUBLICATIONS ════════════════════════════ -->
+<section id="publications">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="reveal">Research &amp; Publications</h2>
+      <div class="section-line"></div>
+    </div>
+    <span class="section-tag reveal" style="margin-top: -2rem; margin-bottom: 3rem; display:block;">// IJSRD — International Journal of Scientific Research &amp; Development</span>
+
+    <div class="item-list">
+      <div class="glass-card item-card reveal-left">
+        <div>
+          <span class="card-tag" style="margin-bottom: 0.75rem; display:inline-block;">Jan 2020 · IJSRD Vol. 7</span>
+          <h3>Smart Rumble Strips for Road Safety</h3>
+          <p style="color: var(--text-muted); margin-top: 0.5rem;">
+            IoT-enabled rumble strip system to prevent vehicle overturning on sharp corners and hilly terrain — awarded best paper prize at the institute level.
+          </p>
+        </div>
+        <a href="#" class="btn-outline" style="white-space: nowrap;">Read Paper</a>
+      </div>
+
+      <div class="glass-card item-card reveal-left">
+        <div>
+          <span class="card-tag" style="margin-bottom: 0.75rem; display:inline-block;">Sept 2020 · IJSRD Vol. 8</span>
+          <h3>Automated Medical Vending Machine</h3>
+          <p style="color: var(--text-muted); margin-top: 0.5rem;">
+            Design and development of a contactless, automated dispensing system for medical supplies — addressing accessibility challenges in remote regions.
+          </p>
+        </div>
+        <a href="#" class="btn-outline" style="white-space: nowrap;">Read Paper</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════ BLOG ════════════════════════════════════ -->
+<section id="blog" class="scan-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="reveal">Latest Thoughts</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="project-grid">
+      <article class="glass-card reveal">
+        <span class="card-tag">Medical Robotics</span>
+        <span class="card-tag" style="float:right; margin-top: 0;">Apr 2026</span>
+        <h3 style="margin-top: 1.2rem; clear:both;">Remote Surgery: The Next Frontier</h3>
+        <p style="color: var(--text-muted); font-size: 0.9rem;">
+          How low-latency wireless and tele-operation advances are enabling surgeons to operate from anywhere in the world — and what the remaining challenges are.
+        </p>
+        <a href="#" style="color: var(--accent); text-decoration: none; font-size: 0.85rem; font-weight: 700; letter-spacing: 1px; display:block; margin-top: 1.5rem;">READ MORE →</a>
+      </article>
+
+      <article class="glass-card reveal">
+        <span class="card-tag">IoT</span>
+        <span class="card-tag" style="float:right; margin-top: 0;">Mar 2026</span>
+        <h3 style="margin-top: 1.2rem; clear:both;">Building ORiV: Lessons from Environmental Sensing</h3>
+        <p style="color: var(--text-muted); font-size: 0.9rem;">
+          What I learned building a production-ready IoT environmental monitoring sensor — from hardware selection to wireless protocol trade-offs.
+        </p>
+        <a href="#" style="color: var(--accent); text-decoration: none; font-size: 0.85rem; font-weight: 700; letter-spacing: 1px; display:block; margin-top: 1.5rem;">READ MORE →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════ GITHUB ══════════════════════════════════ -->
+<section id="github" style="padding-bottom: 10rem;">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="reveal">Open Source</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="glass-card github-card reveal">
+      <span class="section-tag" style="font-size: 0.9rem;">@shivrajshere</span>
+      <h3 style="font-size: 2rem; margin: 1rem 0;">Code I Ship to the World</h3>
+      <p style="color: var(--text-muted); max-width: 500px; margin: 0 auto 2.5rem;">
+        Robotic control algorithms, OpenCV vision experiments, IoT firmware, CAD automation scripts — all available on GitHub.
+      </p>
+      <a href="https://github.com/shivrajshere" target="_blank" class="btn-primary">
+        View GitHub Profile →
+      </a>
+    </div>
+  </div>
+</section>

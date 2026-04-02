@@ -1,0 +1,43 @@
+- title: "Cancer Detection Tool for Minimal Invasive Surgery"
+  tags: ["Medical Robotics", "ISO 13485", "MIS"]
+  description: "A bespoke cancer detection tool designed for use in Minimal Invasive Surgery (MIS). The tool measures tissue stiffness via tactile feedback to help surgeons identify potentially cancerous tissue in real time — reducing the need for traditional biopsy. Designed to ISO 13485 medical device standards with full hazard and risk analysis."
+  image: "/assets/img/cancer_detection_project_1775165852653.png"
+  alt: "Cancer Detection Tool Design"
+  highlights:
+    - "Tissue stiffness measurement via piezoresistive sensor"
+    - "Designed to ISO 13485 medical device standards"
+    - "Hazard and Risk Analysis (FMEA)"
+    - "Compatible with standard laparoscopic ports (5–12mm)"
+
+- title: "Tele-operated Robot for Medical Injection System"
+  tags: ["Tele-operation", "Wireless Systems", "Medical Devices"]
+  description: "A tele-operated robotic platform designed for administering medical injections remotely, targeting emergency scenarios for wounded soldiers or patients in hazardous zones. The system uses low-latency wireless communication and an intuitive operator interface for precise drug delivery without physical proximity."
+  image: "/assets/img/teleoperated_robot_part2_1775165898246.png"
+  alt: "Tele-operated Injection Robot"
+  highlights:
+    - "Initial Design & Prototype — mechanical frame and joint layout"
+    - "Actuator integration and control system wiring"
+    - "Isometric, Bottom & Top view assemblies"
+    - "Sterile drug cartridge delivery sub-assembly"
+
+- title: "High-Precision Gearbox Design"
+  tags: ["Mechanical Design", "FEA / ANSYS", "CATIA V5"]
+  description: "High-precision gearbox engineered for robotic joint actuation — from initial conceptualization through full CAD modelling, gear ratio calculations, tolerance analysis, and Finite Element Analysis (FEA). Optimized for load distribution and minimal backlash in robotic motion control applications."
+  image: "/assets/img/gearbox_and_style_1775165960615.png"
+  alt: "Gearbox Design"
+  highlights:
+    - "Gear ratio: 8:1 reduction for robotic joint control"
+    - "FEA simulation in ANSYS for stress concentration"
+    - "Full BOM and manufacturing drawings in CATIA V5"
+    - "Backlash tolerance < 0.05°"
+
+- title: "Sensor Mounting System & Product Design"
+  tags: ["Product Design", "Contextual Design", "Human Factors"]
+  description: "A sensor mounting system designed for environmental monitoring platforms (linked to the ORiV project at IVY TECH). Applied a structured product design process across four core pillars."
+  image: "/assets/img/cancer_detection_project_1775165852653.png"
+  alt: "Sensor Mounting Design"
+  highlights:
+    - "Contextualisation of Knowledge"
+    - "Praxis & Technique"
+    - "Critical Thinking"
+    - "Research & Communication"

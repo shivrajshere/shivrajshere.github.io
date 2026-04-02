@@ -1,0 +1,15 @@
+- title: "Smart Rumble Strips for Road Safety"
+  journal: "IJSRD"
+  volume: "Vol. 7 Issue 11"
+  date: "January 2020"
+  url: "https://www.ijsrd.com"
+  keywords: ["IoT", "Road Safety", "Embedded Systems", "Vehicle Dynamics"]
+  description: "Designing an IoT-enabled active rumble strip system that detects sharp cornering and hilly road conditions, triggering alerts and speed governors to prevent vehicle overturning. The system uses embedded sensors to differentiate between safe road manoeuvres and potentially dangerous situations. Awarded best paper prize at institute level."
+
+- title: "Automated Medical Vending Machine"
+  journal: "IJSRD"
+  volume: "Vol. 8 Issue 6"
+  date: "September 2020"
+  url: "https://www.ijsrd.com"
+  keywords: ["Automation", "Medical Devices", "Electromechanical", "Accessibility"]
+  description: "Design and development of a contactless, automated drug dispensing system for pharmacies and public medical points. The machine integrates a prescription verification system with electromechanical dispensing modules, reducing human error and improving accessibility for elderly and rural populations."
